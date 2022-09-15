@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Medio de transporte </title>
+</head>
+
+<body>
+    <script>
+        var mayor = 0;
+        const numeros = [15, 86, 8, 165, 46, 652];
+            document.write("Los numeros ingresados son: ");
+        for (let index = 0; index < numeros.length; index++) {
+            const element = numeros[index];
+            document.write(" " + element);
+            if (element > mayor){
+                mayor = element;
+            }
+        }
+        document.write("<br> El mayor numero es: " + mayor);
+    </script>
+
+</body>
+
+</html>

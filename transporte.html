@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Medio de transporte </title>
+</head>
+
+<body>
+	<script>
+		const distancia = parseInt(prompt('Ingrese la distancia a recorrer:', ''));
+
+		if (distancia < 1000) {
+			document.write("El mejor medio de transoporte apropiado es caminar");
+		}
+		else if (distancia > 1000 && distancia < 10000) {
+			document.write("El mejor medio de transoporte apropiado es la bicicleta");
+		}
+		else if (distancia > 10000 && distancia < 30000) {
+			document.write("El mejor medio de transoporte apropiado es el colectivo");
+		}
+		else if (distancia > 30000 && distancia < 100000) {
+			document.write("El mejor medio de transoporte apropiado es el auto");
+		}
+		else if (distancia > 10000) {
+			document.write("El mejor medio de transoporte apropiado es el avión");
+		}
+
+	</script>
+
+</body>
+
+</html>
