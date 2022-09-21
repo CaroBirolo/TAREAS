@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrados</title>
+</head>
+
+<body>
+    <div class="cuadrado1" onclick="changeBackgroundColor('red')"> </div>
+    <div class="cuadrado2" onclick="changeBackgroundColor('green')"></div>
+    <div class="cuadrado3" onclick="changeBackgroundColor('blue')"></div>
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }   
+    </script>
+    <style>
+        .cuadrado1 {
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            cursor: pointer; 
+        }
+
+        .cuadrado2 {
+            height: 150px;
+            width: 150px;
+            background-color: green;
+            cursor: pointer; 
+        }
+
+        .cuadrado3 {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            cursor: pointer; 
+        }
+    </style>
+
+</body>
+
+</html>
