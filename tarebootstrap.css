@@ -1,0 +1,36 @@
+.body {
+    margin: revert; 
+}
+
+.container-fluid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-weight: bolder;
+}
+
+#container-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.carousel-caption {
+    color:black;
+}
+
+.cards {
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.form.group{
+    padding: auto;
+}
+
+.form {
+    display: flex;
+ margin-top: 10px;
+}
